@@ -1,5 +1,77 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q9{
 
-/* 回答はここに書いてね */
+  margin-top:20px;
+}
+.q9_kuruma{
+  position:relative;
+  overflow: hidden;
+  width: 500px;
+  height: 333px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.q9_kuruma_img{
+  -webkit-transform: scale(1) ;
+  -webkit-transition: all 0.5s ease;
+}
+.q9_kuruma_trans{
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .8));
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+  .q9_kuruma:hover .q9_kuruma_img{
+  transform: scale(1.5);
+}
+
+.q9_kuruma_trans_text{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  color:#fff;
+  box-sizing: border-box;
+  word-break: break-all;
+}
+.q9_kuruma:hover .q9_kuruma_trans {
+  bottom: 0;
+}
+.loader {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 60px;
+  border: 10px solid #ecf1f2;
+  border-right-color: #00bcd4;
+  animation: loding 1.1s linear infinite;
+}
+@keyframes loding{
+  0%{transform: rotate(0deg);}
+  50%{transform: rotate(180deg);}
+  100%{transform: rotate(360deg);}
+}
+
+/* 回答はここに書いてね
+rgba(255, 255, 255, 0.2); */
+ .box1 {
+  width: 100px;
+  height: 100px;
+  background: #000;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-delay: 0s;
+  transition-timing-function: ease;
+}
+
+.box1:hover {
+  background: #ccc;
+  width: 300px;
+}/
