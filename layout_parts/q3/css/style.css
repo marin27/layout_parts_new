@@ -1,19 +1,19 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.table1{
+.q3__contents{
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
   text-align: center;
 }
-.table1 td{
+.q3__contents td{
   border: solid #dedede 1px;
   padding: 10px;
   font-size: 16px;
   line-height: 22px;
 }
-.table1 th{
+.q3__contents th{
   border: solid #dedede 1px;
   background-color: #2244aa;
   padding: 10px;
@@ -21,21 +21,16 @@
   line-height: 26px;
   color: white;
 }
-.table1 td:first-child{
+.q3__contents1 td:first-child{
   background-color: #2244aa;
   padding: 10px;
   font-size: 18px;
   line-height: 26px;
   color: white;
 }
-.table1 > tbody > tr:last-child {
+.q3__contents > tbody > tr:last-child {
   border-top: 2px dashed #000;
 }
-.table1 tr:nth-child(even){
+.tq3__contents tr:nth-child(even){
   background-color: #ecf1f2
 }
-/* 回答はここに書いてね
- style="background-color: #ecf1f2"
- background-color: #ecf1f2;
-
- */

@@ -10,7 +10,7 @@
 }
 /* 回答はここに書いてね */
 
-.btn01{
+.q8-small{
   border-radius: 3px;
   font-size: 16px;
   height: 26px;
@@ -22,26 +22,26 @@
   margin-left: 10px;
   text-align: center;
 }
-.small-common {
+.q8-btn__common {
   color: #fff;
   background-color: #00bcd4;
 }
-.small-common:first-of-type {
+.q8-btn__common:first-of-type {
   margin-left: 0;
 }
-.small-error {
+.q8-btn__error {
   color: #fff;
   background-color: #ff4081;
 }
-.small-disadled{
+.q8-btn__disadled{
   color: #fff;
   background-color: #e5e5e5;
 }
-.small-shadow{
+.q8-btn__shadow{
   color: #222;
   box-shadow: 0px 1px 6px rgba(0,0,0,.12),0px 1px 4px rgba(0,0,0,.12);
 }
-.btn02{
+.q8-middle{
   border-radius: 5px;
   font-size: 20px;
   line-height: 32px;
@@ -51,26 +51,7 @@
   cursor: hand;
   margin-left: 10px;
 }
-.middle-common{
-  color: #fff;
-  background-color: #00bcd4;
-}
-.middle-common:first-of-type {
-  margin-left: 0;
-}
-.middle-error{
-  color: #fff;
-  background-color: #ff4081;
-}
-.middle-disabled{
-  color: #fff;
-  background-color: #e5e5e5;
-}
-.middle-shadow{
-  color: #222;
-  box-shadow: 0px 1px 6px rgba(0,0,0,.12),0px 1px 4px rgba(0,0,0,.12);
-}
-.btn03{
+.q8-large{
   border-radius: 7px;
   font-size: 24px;
   line-height: 38px;
@@ -79,25 +60,6 @@
   cursor:pointer;
   cursor: hand;
   margin-left: 10px;
-}
-.large-common{
-  color: #fff;
-  background-color: #00bcd4;
-}
-.large-common:first-of-type {
-  margin-left: 0;
-}
-.large-error{
-  color: #fff;
-  background-color: #ff4081;
-}
-.large-disabled{
-  color: #fff;
-  background-color: #e5e5e5;
-}
-.large-shadow{
-  color: #222;
-  box-shadow: 0px 1px 6px rgba(0,0,0,.12),0px 1px 4px rgba(0,0,0,.12);
 }
 .q8_form{
   width: 700px;
@@ -299,6 +261,9 @@
   outline: none;
   border: none;
 }
+.q8_main_bottom{
+  text-align: right;
+}
 .q8_main_bottom_btn{
   background: none;
   border: none;
@@ -312,8 +277,9 @@
   font-size: 16px;
   line-height: 26px;
 }
-.q8_main_bottom{
-  text-align: right;
+.q8_main_bottom_btn:active {
+    background-color: #FFF;
+    color: #00BCD4;
 }
 .input[type="text"],
 textarea, .q8_input,{

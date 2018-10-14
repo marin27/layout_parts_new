@@ -7,12 +7,12 @@
   padding: 20px;
   margin: 0 auto;
   }
-.box1{
+.box-left-img{
   float: left;
   margin-right: 20px;
   margin-bottom: 10px;
 }
-.box2{
+.box-right-img{
   float: right;
   margin-left: 20px;
   margin-bottom: 10px;
